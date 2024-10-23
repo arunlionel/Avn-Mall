@@ -1,0 +1,107 @@
+.products{
+    margin: 10px;
+    display:block;
+    text-align: center;
+}
+
+.product{
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: orangered;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+dd{
+    text-align: center;
+    font-size: 30px;
+}
+h2{
+    padding: 0px 10px;
+}
+input[type=search]{
+    width: 20%;
+    padding: 10px;
+    margin-top: 10px;
+    margin: 5px;
+    
+}
+
+    
+    
+
+.item img{
+    margin: 20px;
+    padding: 1px;
+    border: 1px solid goldenrod;
+    border-radius: 1px;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+h1{
+    color: black;
+}
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  
+}
+.footer-section-Info {
+  margin: 0px 0px;
+  min-width: 250px;
+  
+ 
+}
+.footer-section-Explore{
+  color: goldenrod;
+}
+.footer-col .icons {
+  display: flex;
+  margin-top: 30px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.footer-col .icons i {
+  color: #afb6c7;
+}
+
+.footer-col .icons i:hover  {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transform: none;
+    width: 90%;
+    border-radius: 0;
+  }
+}
+
+
+
+  

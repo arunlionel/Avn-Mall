@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar {
+    background-color:#333;
+    overflow: hidden;
+}
+/* Styling for video */
+video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    float: right;
+    margin: 30px;
+}
+a {
+    color: goldenrod;
+    text-decoration: none;
+}
+.navbar a :hover {
+    background-attachment: black;
+    color: #333;
+    padding: 10px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    margin-top: 15px;
+    background-color: #fff;
+}
+h3{
+    margin: 20px;
+}
+p{
+    margin: 0px 20px;
+    font-style: italic;
+    font-weight:bolder;
+}
+h5{
+    margin: 10px;
+    margin-left: 150px;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+h4{
+    margin: 30px 30px;
+    text-align: center;
+    float: inline-start;
+    padding: 10px;
+    margin-right: 20px;
+    padding-right: 10px;
+    margin-left: 50px;
+}
+h6{
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+h2{
+    margin-left: 90px;
+}
+h1 {
+    color: black;
+    margin: 10;
+    padding: 15px;
+    background-color: #f2f2f2;
+}
+.item img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.footer-section-Info {
+    margin: 0px 0px;
+    min-width: 250px;
+   
+}
+.footer-col .icons {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    cursor: pointer;
+  }
+  
+  .footer-col .icons i {
+    color: #afb6c7;
+  }
+  
+  .footer-col .icons i:hover  {
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      position: relative;
+      bottom: 0;
+      left: 0;
+      transform: none;
+      width: 90%;
+      border-radius: 0;
+    }
+}
+
+  
+
+
+    

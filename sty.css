@@ -1,0 +1,24 @@
+dd{
+    
+    font-size: 80px;
+}
+dt{
+    margin: 20px;
+    font-size: medium;
+    color: chocolate;
+}
+dl{
+    margin: 60px;
+    font-size: 60px;
+}
+h5{
+    float: right;
+    margin: 0px 0px;
+}
+p em{
+    
+    font-size: 30px;
+    margin-top: 20px; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
